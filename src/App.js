@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import Home from './Views/Home.js';
@@ -7,28 +7,19 @@ import Home from './Views/Home.js';
 
 
 function App() {
+
     return (
         <div>
-            <Router>
-                <Header />
-                <Switch>
+            <BrowserRouter>
+            <Header />
+            <Routes>
 
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-
-                    {/* <Route>
-                        <Page404 />
-                    </Route> */}
-
-                </Switch>
+                    <Route path="/" element={<Home />} />
+                
+                </Routes>
                 <Footer />
-            </Router>
-
-            
-
+            </BrowserRouter>
         </div>
-
     );
 }
 
