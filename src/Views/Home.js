@@ -5,7 +5,7 @@ function Home() {
     return (
 
         <div>
-            <h1>Css Only Carousel</h1>
+            <h1>Welcome</h1>
             <div class="carrousel">
                 <h2>Title</h2>
                 <input type="radio" name="slides" id="radio-1" checked/>
