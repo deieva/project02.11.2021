@@ -24,7 +24,7 @@ function Footer() {
                                     <div className="col-md-5 col-12">
                                         {/* <!-- Email input --> */}
                                         <div className="form-outline form-white mb-4">
-                                            <input type="email" id="form5Example2" className="form-control" />
+                                            <input type="email" id="form5Example2" className="form-control" required />
                                             <label className="form-label" for="form5Example2">Email address</label>
                                         </div>
                                     </div>
