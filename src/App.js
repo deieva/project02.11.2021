@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import Home from './Views/Home.js';
+import Gallery from './Views/Gallery';
 
 
 
@@ -15,7 +16,7 @@ function App() {
             <Routes>
 
                     <Route path="/" element={<Home />} />
-                
+                    <Route path="/gallery" element={<Gallery />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
