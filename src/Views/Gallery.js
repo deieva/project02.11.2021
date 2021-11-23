@@ -5,7 +5,7 @@ function Gallery() {
 
     return (
         <div>
-            <body>
+            <body className="gallery-container">
                 <div className="box">
                     <span style={{'-i': '1'}}><img src="https://images.unsplash.com/photo-1534119768988-c496213eff76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" /></span>
                     <span style={{'-i': '2'}}><img src="https://images.unsplash.com/photo-1575880918403-f578c9078302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" /></span>
