@@ -4,6 +4,7 @@ import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import Home from './Views/Home.js';
 import Gallery from './Views/Gallery';
+import Contacts from './Views/Contacts';
 
 
 
