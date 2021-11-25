@@ -1,3 +1,5 @@
+import '../Assets/Css/Contacts.css';
+
 function Contacts() {
 
     return (
