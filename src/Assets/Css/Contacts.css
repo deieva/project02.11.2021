@@ -35,7 +35,7 @@
     color: #27ae60;
   }
   
-  h1:after {
+  .contact-me:after {
     content: "";
     position: absolute;
     left: 17%;
@@ -78,7 +78,6 @@
     background-color: rgba(230, 230, 230, 0.6);
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    margin-botton: 22px;
     transition: 0.3s;
   }
   
@@ -90,7 +89,7 @@
     resize: none;
   }
   
-  .btn {
+  .btn-contact {
     width: 100%;
     padding: 0.5rem 1rem;
     background-color: #2ecc71;
@@ -100,6 +99,7 @@
     outline: none;
     cursor: pointer;
     transition: 3s;
+    border-radius: 5px;
   }
   
   .btn:hover {
