@@ -45,6 +45,7 @@
     width: 50%;
     border-radius: 2px;
     background-color: #27ae60;
+    text-align: center;
   }
   
   .container:after {
