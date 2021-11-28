@@ -112,3 +112,11 @@
     border: 2px solid rgba(30, 85, 250, 0.47);
   }
   
+  .contact-us {
+    color: black;
+    background: #2ecc71;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }

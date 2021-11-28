@@ -6,7 +6,7 @@ function Contacts() {
         <div>
             <div className="contact">
                 <div className="content-box">
-                    <h1> CONTACT US: </h1>
+                    <h1 className="contact-us"> CONTACT US: </h1>
                     {/* <div className="left">
                     <div className="right"> */}
                     {/* <h1 className="contact-me"><strong>Contact Me</strong></h1> */}
