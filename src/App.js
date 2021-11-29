@@ -14,13 +14,14 @@ function App() {
     return (
         <div>
             <BrowserRouter>
-            <Header />
-            <Routes>
+                <Header />
+                <Routes>
 
                     <Route path="/" element={<Home />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contacts" element={<Contacts />} />
-                    <Route path="/page404" element={<Page404 />} />
+                    <Route path="*" element={<Page404 /> } />
+
                 </Routes>
                 <Footer />
             </BrowserRouter>
