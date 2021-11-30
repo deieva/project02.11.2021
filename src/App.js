@@ -16,12 +16,10 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-
                     <Route path="/" element={<Home />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contacts" element={<Contacts />} />
                     <Route path="*" element={<Page404 /> } />
-
                 </Routes>
                 <Footer />
             </BrowserRouter>
