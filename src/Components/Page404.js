@@ -4,7 +4,7 @@ function Page404() {
 
     return (
 
-        <div>
+        <div className="container404">
 
             <div className="rail">
                 <div className="stamp four">4</div>
