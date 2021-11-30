@@ -1,3 +1,5 @@
+import '../Assets/Css/Page404.css';
+
 function Page404() {
 
     return (
