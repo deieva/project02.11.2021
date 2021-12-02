@@ -1,9 +1,6 @@
 function Header() {
-
     return (
-
         <div>
-
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar</a>
@@ -40,9 +37,7 @@ function Header() {
                     </div>
                 </div>
             </nav>
-
         </div>
     )
 }
-
 export default Header;
